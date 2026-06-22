@@ -32,6 +32,7 @@ By the end of this lab, you will:
 * Lab 1 completed — EKS cluster `cluster` is running in `us-east-1`
 * S3 bucket `irsa-lab-050752632489` exists with `README.md`
 * IAM Policy `S3TestAccessPolicy` already created
+* `make` installed (see Lab 1 prerequisites for installation instructions)
 
 ---
 

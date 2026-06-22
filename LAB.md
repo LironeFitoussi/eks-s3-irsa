@@ -24,7 +24,44 @@ Before starting, ensure you have:
 * AWS CLI configured (`aws configure`)
 * `eksctl` installed
 * `kubectl` installed
+* `make` installed (see below)
 * Permissions to create: IAM Roles, IAM Policies, S3 Buckets, EKS Clusters
+
+### Installing `make`
+
+**Linux (Ubuntu/Debian):**
+
+```bash
+sudo apt update && sudo apt install -y make
+```
+
+**Linux (Amazon Linux / RHEL / CentOS):**
+
+```bash
+sudo yum install -y make
+```
+
+**Windows — Option 1: Chocolatey (recommended):**
+
+```powershell
+choco install make
+```
+
+**Windows — Option 2: Winget:**
+
+```powershell
+winget install GnuWin32.Make
+```
+
+**Windows — Option 3: WSL (Windows Subsystem for Linux):**
+
+Run the lab inside a WSL terminal and use the Linux instructions above.
+
+Verify installation:
+
+```bash
+make --version
+```
 
 ---
 
